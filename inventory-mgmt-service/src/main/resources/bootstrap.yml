@@ -1,0 +1,4 @@
+spring:
+  config:
+    import:
+    - configserver:http://localhost:8889  application:    name: inventory-mgmt-service
